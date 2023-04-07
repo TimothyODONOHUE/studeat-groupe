@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300&display=swap');
+
+body {
+background-color:#020106;
+height: 100vh;
+}
+
+.titre {
+    display: flex;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    }
+    
+    .bar {
+    background-color: #FFF57B;
+    height: 2pt;
+    width: 70px;
+    margin-left: 30px;
+    position:relative;
+    bottom:18px;
+    }
+
+    .mathis_texte, .Alexis_texte {
+        color:white;
+    }
+
+    .Mathis_crédits, .Alexis_crédits {
+        color:white;
+        font-family: 'Roboto', sans-serif;
+        margin-left: 30px;
+        display: flex;
+        font-weight:ligther;
+    }
+    
+
+

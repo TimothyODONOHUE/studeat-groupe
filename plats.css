@@ -1,0 +1,107 @@
+body{
+    background-color: black;
+}
+
+.header{
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 390px;
+    display:flex;
+    justify-content: space-between;
+}
+
+h2{
+    padding-top: 12px;
+    padding-left: 20px;
+    color:white;
+    font-size:medium;
+}
+
+
+.filtre {  
+    width: 50px;
+    height: 50px;
+}
+
+.profil{
+    width: 50px;
+    height: 50px;
+}
+
+.panier{
+    width: 50px;
+    height: 50px;
+}
+
+.mathis{
+    color: #F8F07E;
+    text-decoration: none;
+}
+
+.left{
+    display:flex;
+    justify-content: space-between;
+    width: 180px;
+}
+
+.form-outline{
+    width: 330px;
+    margin-left: 8vw;
+    margin-top: 2.5vh;
+}
+
+.form1{
+    display: flex;
+    justify-content: center;
+}
+
+.carte1{
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.carte2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.carte3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+border-radius: 10px;
+}
+
+.km{
+    color: #F3C892;
+    text-decoration: none;
+}
+
+.star{
+    color: #F8F07E;
+    text-decoration: none;
+}
+
+.rectangle{
+    background-color:black;
+    box-shadow: 0px 1px 5px rgba(255, 255, 255, 0.269);
+    position: absolute;
+    top: 160px; left: 200px;
+    width: 110px;
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.text{
+    text-decoration: none;
+    color: white;
+}

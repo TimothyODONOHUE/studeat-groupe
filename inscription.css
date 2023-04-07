@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap');
+
+
+body, html{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+.titre {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+.formulaire {
+    background-color: black;
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
+label {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+
+}
+
+.bar {
+    background-color: #F8F07E;
+    height: 2pt;
+    width: 70px;
+    bottom:20px;
+    margin-bottom: 25px;
+}
+
+.points {
+    border: 2px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    position: fixed;
+    bottom: 6%;
+}
+
+.point {
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.point_container {
+    display: flex;
+    justify-content: center;
+}
+
+#point-jaune {
+    height: 22px;
+    width: 22px;
+    background-color: #F8F07E;
+}
+
+.zoneSaisie{
+    background-color: rgba(255, 255, 255, 0.095);
+    height: 45px;
+    margin-bottom: 25px;
+}
+
+a.btn-primary {
+    font-size: 23px;
+    margin-top: 25px;
+    background-color: #F8F07E;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    width: 150px;
+    border: none;
+}
+
+.bouton-suivant {
+    display: flex;
+    justify-content: right;
+    padding-right: 10vw;
+    position: fixed;
+    bottom: 16%;
+    right: 0%;
+}
+

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300&display=swap');
+
+body {
+background-color:#020106;
+height: 100vh;
+}
+.logo_copyright_container {
+    display: flex;
+    justify-content: center;
+}
+.logo_copyright {
+    position: fixed;
+    bottom: 2%;
+}
+
+.icon_valide {
+    display: flex;
+    align-items: center;
+}
+
+.logo_container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1vh;
+}
+
+.bar {
+    background-color: #FFF57B;
+    height: 2pt;
+    width: 70px;
+    margin-left: 30px;
+    position:relative;
+    bottom:18px;
+    }
+
+#logo {
+    width: 40px;
+}
+
+#copyright {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: lighter;
+}
+.flèche {
+    margin-left:25px;
+    margin-top:12px;
+    height:50px;
+}
+
+.panier {
+    margin-left: 160px;
+    margin-top:12px;
+    height:50px;
+}
+
+.photo-mathis {
+    height:50px;
+    margin-top:12px;
+}
+
+.titre {
+    display: flex;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    }
+
+.texte_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:150px;
+     }
+
+.texte_centre_paragraphe{    
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 20px;
+    font-weight:lighter;
+}
+
+    .valide_logo {
+    width:30px;
+    margin-left:8px;
+    }
+
+.boutton_accueil {
+    background-color:#F8F07E;
+    border-style : none; 
+    font-family: 'Roboto', sans-serif;
+    border-radius: 5px;
+    width: 230px;
+    height: 50px;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size:22px;
+    flex-wrap: wrap
+
+}
+
+.flèche_noir {
+    width:22px;
+
+}
+
+.boutton_flèche_accueil {
+    display: flex;
+    justify-content: center;
+}

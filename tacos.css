@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap');
+
+body {
+background-image: url('img/tacos/IMG-tacos.png');
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+height: 100vh;
+}
+
+.titre {
+display: flex;
+margin-left: 30px;
+font-family: 'Roboto', sans-serif;
+color:white;
+}
+
+.bar {
+background-color: #FFF57B;
+height: 2pt;
+width: 70px;
+margin-left: 30px;
+position:relative;
+bottom:18px;
+}
+
+.ligne1 {
+display:flex;
+align-items: center;
+font-family: 'Poppins', sans-serif;
+color:white;
+margin-left: 30px;
+}
+
+.ligne1tailles {
+margin-left:5px;
+}
+
+.ligne2 {
+display:flex;
+align-items: center;
+font-family: 'Poppins', sans-serif;
+color:white;
+margin-left: 30px;
+margin-top:-30px;
+}
+
+.ligne2tailles {
+margin-left:5px;
+}
+
+.ligne3 {
+    display:flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    margin-left: 30px;
+    margin-top:-30px;
+    }
+    
+.ligne3tailles {
+    margin-left:5px;
+}
+
+.ligne4 {
+display:flex;
+align-items: center;
+font-family: 'Poppins', sans-serif;
+color:white;
+margin-left: 30px;
+margin-top:-30px;
+}
+
+.ligne4tailles {
+margin-left:5px;
+}       
+
+.bar2 {
+    background-color: #FFF57B;
+    height: 2pt;
+    width: 55px;
+   
+}
+
+.bouttoncommander {
+    background-color:#FFF57B ;
+    height:65px;
+    width:230px;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+   
+}
+
+.commander {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bar3 {
+    background-color: #FFF57B;
+    height: 2pt;
+    width: 55px;
+    }
+
+.notetitre {
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    display:flex;
+    font-size:18px;
+    position:relative;
+    bottom:3px;
+    margin-right: 12px;
+}
+
+.note {
+    
+    display:flex;
+    justify-content: center;
+    margin-top: 12px;
+}
+
+.etoiles {
+    display:flex;
+    height:19px;
+    width:120px;
+}
+
+.note {
+    display:flex;
+}
+
+.img-tacos {
+    position: relative;
+    right:250px;
+}
+
+
+.jaune{ color:#F3C892 ;
+}
+
+.flèche {
+    margin-left:25px;
+    margin-top:12px;
+    height:50px;
+}
+
+.panier {
+    margin-left: 160px;
+    margin-top:12px;
+    height:50px;
+}
+
+.photo-mathis {
+    height:50px;
+    margin-top:12px;
+}
+
+

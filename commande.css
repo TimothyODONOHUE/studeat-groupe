@@ -1,0 +1,241 @@
+body{
+    background-color: black;
+    font-family: 'Roboto',sans-serif;
+    overflow-x: hidden;
+}
+
+.header{
+    margin-top: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 390px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.titre {
+    margin-top: 18px;
+    display: flex;
+    margin-left: 30px;
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-weight: bold;
+    }
+
+.bar {
+    background-color: #FFF57B;
+    height: 2pt;
+    width: 70px;
+    margin-left: 30px;
+    position:relative;
+    bottom:18px;
+    margin-top: 18px;
+    }   
+
+
+
+
+.filtre {  
+    width: 50px;
+    height: 50px;
+}
+
+.profil{
+    width: 50px;
+    height: 50px;
+}
+
+.panier{
+    width: 50px;
+    height: 50px;
+}
+
+.mathis{
+    color: #F8F07E;
+    text-decoration: none;
+}
+
+.left{
+    display:flex;
+    justify-content: space-around;
+    width: 180px;
+}
+
+.form-outline{
+    width: 330px;
+    margin-left: 8vw;
+    margin-top: 2.5vh;
+}
+
+.form1{
+    display: flex;
+    justify-content: center;
+}
+
+.carte1{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.carte2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.carte3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.card{
+border-radius: 10px;
+
+}
+
+.card-text{
+    margin-top: 10px;
+}
+
+.km{
+    color: #F3C892;
+    text-decoration: none;
+}
+
+.star{
+    color: #F8F07E;
+    text-decoration: none;
+}
+
+.rectangle{
+    background-color:black;
+    box-shadow: 0px 1px 5px rgba(255, 255, 255, 0.269);
+    position: absolute;
+    top: 160px; left: 200px;
+    width: 110px;
+    height: 50px;
+    border-radius: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    text-decoration: none;
+    color: #F8F07E;
+}
+
+.livraison{
+    color: white;
+    margin-left: 1vh;
+    
+}
+
+.frais{
+   
+    color: white;
+    
+}
+
+.modifier{
+    color:#F8F07E ;
+    margin-left: 15vh;
+}
+
+.liv{
+    margin-top: 15px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.flèche {
+    margin-left:25px;
+    margin-top:12px;
+    height:50px;
+}
+
+.panier {
+    margin-left: 160px;
+    margin-top:0px;
+    height:50px;
+}
+
+.photo-mathis {
+    height:50px;
+    margin-top:12px;
+}
+
+.info{
+    width: 390px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.livraison2{
+    margin-left: 54px;
+}
+
+
+
+.paypal{
+    margin-top: 20px;
+    display: flex;
+}
+
+.textPay{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.ajouterPay{
+    font-size:120%;
+}
+
+.paypal{
+    display: flex;
+    justify-content: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #202020;
+    border-top: #E4E4E4 1.5px solid;
+    border-bottom: #E4E4E4 1.5px solid;
+
+}
+
+
+.total{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    width: 340px;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+
+
+a.btn-primary {
+    font-size: 23px;
+    margin-top: 25px;
+    background-color: #F8F07E;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    height: 50px;
+    width: 350px;
+    border: none;
+    font-weight: bold;
+}
+
+
+.bouton-suivant {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
