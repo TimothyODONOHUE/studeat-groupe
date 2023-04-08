@@ -3,13 +3,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@300&display=swap');
 
 body {
-background-color:#020106;
-height: 100vh;
+    background-color:#020106;
+    height: 100vh;
 }
+
 .logo_copyright_container {
     display: flex;
     justify-content: center;
 }
+
 .logo_copyright {
     position: fixed;
     bottom: 2%;
@@ -33,7 +35,7 @@ height: 100vh;
     margin-left: 30px;
     position:relative;
     bottom:18px;
-    }
+}
 
 #logo {
     width: 40px;
@@ -48,6 +50,7 @@ height: 100vh;
     font-family: 'Poppins', sans-serif;
     font-weight: lighter;
 }
+
 .flèche {
     margin-left:25px;
     margin-top:12px;
@@ -80,36 +83,42 @@ height: 100vh;
      }
 
 .texte_centre_paragraphe{    
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color:white;
     font-size: 20px;
     font-weight:lighter;
 }
 
-    .valide_logo {
+.valide_logo {
     width:30px;
     margin-left:8px;
-    }
+}
 
-.boutton_accueil {
-    background-color:#F8F07E;
-    border-style : none; 
-    font-family: 'Roboto', sans-serif;
+a.btn-primary {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px 0px 20px;
+    font-size: 23px;
+    background-color: #F8F07E;
     border-radius: 5px;
-    width: 230px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
     height: 50px;
-    font-weight: bolder;
+    width: 220px;
+    border: none;
+    text-decoration: none;
+}
+
+.boutonaccueil {
+    margin-top: 1vh;
     display: flex;
     justify-content: center;
-    align-content: center;
-    font-size:22px;
-    flex-wrap: wrap
-
 }
 
 .flèche_noir {
-    width:22px;
-
+    width:25px;
 }
 
 .boutton_flèche_accueil {

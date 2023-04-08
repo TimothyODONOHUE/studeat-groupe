@@ -1,27 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap');
+
 body{
     background-color: black;
+    margin: 0;
+}
+
+.titre {
+    font-family: 'Roboto', sans-serif;
 }
 
 .header{
-    margin-top: 25px;
-    padding-left: 20px;
-    padding-right: 20px;
-    width: 390px;
+    margin: 25px 25px 0px 25px;
     display:flex;
     justify-content: space-between;
 }
 
-h2{
-    padding-top: 12px;
-    padding-left: 20px;
-    color:white;
-    font-size:medium;
-}
-
-
-.filtre {  
-    width: 50px;
-    height: 50px;
+.flèche {
+    height:50px;
 }
 
 .profil{
@@ -30,6 +26,23 @@ h2{
 }
 
 .panier{
+    margin: 0;
+    width: 50px;
+    height: 50px;
+}
+
+h2{
+    padding-top: 12px;
+    color:white;
+    font-size:medium;
+}
+
+.filtre {  
+    width: 50px;
+    height: 50px;
+}
+
+.profil{
     width: 50px;
     height: 50px;
 }
@@ -74,7 +87,7 @@ h2{
     justify-content: center;
 }
 .card{
-border-radius: 10px;
+    border-radius: 10px;
 }
 
 .km{
@@ -91,17 +104,25 @@ border-radius: 10px;
     background-color:black;
     box-shadow: 0px 1px 5px rgba(255, 255, 255, 0.269);
     position: absolute;
-    top: 160px; left: 200px;
-    width: 110px;
+    top: 160px; left: 195px;
+    width: 115px;
     height: 50px;
     border-radius: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .text{
     text-decoration: none;
     color: white;
+    font-family: 'Poppins', sans-serif;
 }
+
+.card-text{
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+

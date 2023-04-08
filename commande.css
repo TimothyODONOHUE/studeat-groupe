@@ -1,11 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@700&display=swap');
+
 body{
     background-color: black;
-    font-family: 'Roboto',sans-serif;
     overflow-x: hidden;
 }
 
+h1 {
+    font-size: 34px;
+}
+
 .header{
-    margin-top: 25px;
+    margin-top: 23px;
     padding-left: 20px;
     padding-right: 20px;
     width: 390px;
@@ -14,9 +20,10 @@ body{
 }
 
 .titre {
-    margin-top: 18px;
+    margin: 27px 0 0 30px;
     display: flex;
     margin-left: 30px;
+    font-size: 17px;
     font-family: 'Roboto', sans-serif;
     color:white;
     font-weight: bold;
@@ -30,14 +37,20 @@ body{
     position:relative;
     bottom:18px;
     margin-top: 18px;
-    }   
-
-
-
+}   
 
 .filtre {  
     width: 50px;
     height: 50px;
+}
+
+.icons {
+    margin: 25px 25px 0px 25px;
+    display: flex;
+    justify-content: space-between;}
+
+.flèche {
+    height:50px;
 }
 
 .profil{
@@ -46,6 +59,7 @@ body{
 }
 
 .panier{
+    margin: 0;
     width: 50px;
     height: 50px;
 }
@@ -72,26 +86,15 @@ body{
     justify-content: center;
 }
 
-.carte1{
+.carte{
     margin-top: 15px;
     display: flex;
     justify-content: center;
+    font-family: 'Poppins', sans-serif;
 }
 
-.carte2{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
-
-.carte3{
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
 .card{
-border-radius: 10px;
-
+    border-radius: 10px;
 }
 
 .card-text{
@@ -129,13 +132,11 @@ border-radius: 10px;
 .livraison{
     color: white;
     margin-left: 1vh;
-    
 }
 
 .frais{
    
     color: white;
-    
 }
 
 .modifier{
@@ -148,18 +149,7 @@ border-radius: 10px;
     margin-left: 15px;
     display: flex;
     justify-content: space-around;
-}
-
-.flèche {
-    margin-left:25px;
-    margin-top:12px;
-    height:50px;
-}
-
-.panier {
-    margin-left: 160px;
-    margin-top:0px;
-    height:50px;
+    font-family: 'Poppins', sans-serif;
 }
 
 .photo-mathis {
@@ -170,20 +160,21 @@ border-radius: 10px;
 .info{
     width: 390px;
     color: white;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-around;
     margin-top: 20px;
 }
 
 .livraison2{
-    margin-left: 54px;
+    margin-left: 50px;
+    font-family: 'Poppins', sans-serif;
 }
-
-
 
 .paypal{
     margin-top: 20px;
     display: flex;
+    font-family: 'Poppins', sans-serif;
 }
 
 .textPay{
@@ -205,20 +196,17 @@ border-radius: 10px;
     background-color: #202020;
     border-top: #E4E4E4 1.5px solid;
     border-bottom: #E4E4E4 1.5px solid;
-
 }
-
 
 .total{
     color: white;
+    font-family: 'Poppins', sans-serif;
     display: flex;
     justify-content: space-between;
     width: 340px;
     margin-left: 20px;
     margin-top: 25px;
 }
-
-
 
 a.btn-primary {
     font-size: 23px;
@@ -232,10 +220,11 @@ a.btn-primary {
     font-weight: bold;
 }
 
-
-.bouton-suivant {
+.bouton-commander {
     display: flex;
     justify-content: center;
+    align-items: center;
     margin-bottom: 40px;
+    padding: 0;
 }
 
